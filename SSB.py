@@ -2,7 +2,7 @@ import os, platform
 try:
     import requests
 except:
-    os.system('pip2 install requests')
+    os.system('pip install requests')
 os.system('git pull')
 os.system('xdg-open https://facebook.com/groups/3017062245271082/')
 import requests
